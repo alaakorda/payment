@@ -40,11 +40,11 @@ class _PaymentDetailsBodyState extends State<PaymentDetailsBody> {
             padding: const EdgeInsets.only(bottom: 12.0, left: 20, right: 20),
             child: CustomButton(
               onTap: () {
-               Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => ThankYou(),
-                    ),
-                  );
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => ThankYou(),
+                  ),
+                );
                 if (formKey.currentState!.validate()) {
                   formKey.currentState!.save();
                 } else {

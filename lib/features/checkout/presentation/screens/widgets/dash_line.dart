@@ -13,7 +13,6 @@ class DashLine extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 2),
             child: Container(
               color: const Color(0xffB8B8B8),
-              
               height: 2,
             ),
           ),
